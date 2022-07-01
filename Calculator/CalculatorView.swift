@@ -41,7 +41,7 @@ struct CalculatorView: View {
                                     num.append(button.title)
                                 } label: {
                                     Text(button.title)
-                                        .font(.system(size: 40, weight: .semibold, design: .rounded))
+                                        .font(.system(size: 36, weight: .semibold, design: .rounded))
                                         .foregroundColor(.white)
                                         .frame(width: self.FrameButton(button: button), height: (UIScreen.main.bounds.width - 5 * 12) / 4)
                                         .background(button.backgroundbutton)
@@ -69,6 +69,8 @@ struct CalculatorView_Previews: PreviewProvider {
         CalculatorView()
     }
 }
+
+// MARK: Enum
 
 enum CaseButton: String {
     case zero, one, two, three, four, five, six, seven, eight, nine, dot
@@ -109,5 +111,5 @@ enum CaseButton: String {
         default:
             return "AC"
         }
-    } 
+    }
 }
