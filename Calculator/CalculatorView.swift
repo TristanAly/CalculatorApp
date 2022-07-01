@@ -41,7 +41,7 @@ struct CalculatorView: View {
                                     num.append(button.title)
                                 } label: {
                                     Text(button.title)
-                                        .font(.system(size: 32))
+                                        .font(.system(size: 40, weight: .semibold, design: .rounded))
                                         .foregroundColor(.white)
                                         .frame(width: self.FrameButton(button: button), height: (UIScreen.main.bounds.width - 5 * 12) / 4)
                                         .background(button.backgroundbutton)
@@ -85,6 +85,7 @@ enum CaseButton: String {
             return .gray.opacity(0.5)
         }
     }
+    
     var title: String {
         switch self {
         case .zero: return "0"
@@ -100,12 +101,13 @@ enum CaseButton: String {
         case .dot: return "."
         case .plusMinus: return "+/-"
         case .pourcent: return "%"
-        case .div: return "/"
+        case .div: return "÷"
         case .multiply: return "x"
         case .minus: return "-"
         case .equal: return "="
+        case .plus: return "+"
         default:
             return "AC"
         }
-    }
+    } 
 }
