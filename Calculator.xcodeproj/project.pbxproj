@@ -11,6 +11,7 @@
 		62345980286EF6A700041034 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6234597F286EF6A700041034 /* ContentView.swift */; };
 		62345982286EF6A900041034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62345981286EF6A900041034 /* Assets.xcassets */; };
 		62345985286EF6A900041034 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62345984286EF6A900041034 /* Preview Assets.xcassets */; };
+		6234598C286EF76C00041034 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6234598B286EF76C00041034 /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6234597F286EF6A700041034 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62345981286EF6A900041034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62345984286EF6A900041034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6234598B286EF76C00041034 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6234597D286EF6A700041034 /* CalculatorApp.swift */,
 				6234597F286EF6A700041034 /* ContentView.swift */,
+				6234598B286EF76C00041034 /* CalculatorView.swift */,
 				62345981286EF6A900041034 /* Assets.xcassets */,
 				62345983286EF6A900041034 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62345980286EF6A700041034 /* ContentView.swift in Sources */,
+				6234598C286EF76C00041034 /* CalculatorView.swift in Sources */,
 				6234597E286EF6A700041034 /* CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
